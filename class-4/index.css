@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+  overflow: hidden;
+  height: 50vh;
+  width: 50vw;
+  background-color: red;
+  border:2px solid rgb(224, 167, 10);
+}
+.child{
+  height: 30vh;
+  width: 60vw;
+  background-color: rgba(134, 197, 46, 0);
+  border:2px solid black;
+}

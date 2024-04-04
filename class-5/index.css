@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+    display: flex;
+    margin: 10px;
+    height: 150px;
+    width: 300px;
+    background-color: blueviolet;
+    justify-content:space-around;
+    align-items: center;
+}
+.child1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(132, 206, 22);
+}
+.child2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(154, 33, 53);
+}
+.child3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(222, 105, 38);
+}

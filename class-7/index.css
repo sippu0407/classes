@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.parent {
+  height: 60%;
+  width: 60%;
+  background-color: rgb(111, 255, 0);
+  display: grid;
+  grid-template-columns: 50%;
+  grid-template-rows: 50%;
+
+}
+.parent div{
+    height: 50px;
+    width: 50px;
+}
+.child1 {
+  background-color: aliceblue;
+  margin: 10px;
+}
+.child2 {
+  background-color: aliceblue;
+  margin: 10px;
+}
+.child3 {
+  background-color: aliceblue;
+  margin: 10px;
+}
+.child4 {
+  background-color: aliceblue;
+  margin: 10px;
+}
